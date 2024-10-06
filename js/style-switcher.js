@@ -33,7 +33,6 @@ dayNight.addEventListener("click",()=>{
 })
 
 window.addEventListener("load", ()=>{
-    console.log(document.body.classList)
     if(document.body.classList.contains("dark"))
     {
         dayNight.querySelector("i").classList.add("fa-sun");
