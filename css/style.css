@@ -792,6 +792,21 @@ h3.my-profession{
     transform: scale(1.1);
 }
 
+
+.item--api{
+    color: rgb(255 255 255);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all .3s ease;
+}
+
+.item--api:hover{
+    transform: scale(1.05);
+}
+
 .project__list{
     position: absolute;
     bottom: 10px;
